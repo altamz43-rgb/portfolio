@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+a:active,
+a:focus {
+  outline: 0;
+  border: 0;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -46,12 +52,6 @@ nav li a:hover {
 .logo a {
   text-decoration: none;
   color: #fff;
-}
-
-a:active,
-a:focus {
-  outline: 0;
-  border: 0;
 }
 
 .logo a:hover {
