@@ -48,6 +48,12 @@ nav li a:hover {
   color: #fff;
 }
 
+a:active,
+a:focus {
+  outline: 0;
+  border: 0;
+}
+
 .logo a:hover {
   color: #0cd8bd;
   transition: all 0.3s ease-in;
