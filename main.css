@@ -6,12 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-a:active,
-a:focus {
-  outline: 0;
-  border: 0;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -83,6 +77,10 @@ nav li a:hover {
   z-index: 1;
 }
 
+.nav-links li:hover {
+  border-bottom: 3px solid rgb(6, 205, 240);
+}
+
 @media screen and (max-width: 960px) {
   .burger {
     display: block;
@@ -90,16 +88,20 @@ nav li a:hover {
   .nav-links {
     display: flex;
     flex-direction: column;
-    line-height: 25vh;
+    line-height: 15vh;
     justify-content: center;
     align-items: center;
     position: absolute;
     background-color: #0d0e1e;
-    top: 14vh;
+    top: 13vh;
     right: 100%;
     width: 100%;
-    height: 86vh;
+    height: 50vh;
     transition: 0.3s ease-in;
+  }
+
+  .nav-links li a .nav-links li:hover {
+    border-bottom: 3px solid rgb(6, 205, 240);
   }
 }
 
@@ -143,6 +145,11 @@ button {
   width: 250px;
   padding: 10px 15px;
   cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
 }
 
 img {
@@ -232,6 +239,7 @@ img {
   button {
     width: 230px;
   }
+
   button:hover {
     background-color: aquamarine;
   }
