@@ -127,7 +127,8 @@ nav li a:hover {
 }
 
 .col-left {
-  max-width: 500px;
+  width: 100%;
+  max-width: 600px;
   padding: 180px 0px;
   color: #fff;
 }
@@ -222,7 +223,6 @@ img {
     display: flex;
     flex-direction: row;
     text-align: left;
-    width: 100%;
   }
 
   .col-left {
