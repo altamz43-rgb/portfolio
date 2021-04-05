@@ -116,7 +116,7 @@ nav li a:hover {
 
 .container {
   background-color: #0d0e1e;
-  padding: 0px 50px;
+  padding: 0px 20px;
   width: 100%;
   text-align: center;
   align-items: center;
@@ -127,8 +127,7 @@ nav li a:hover {
 }
 
 .col-left {
-  width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   padding: 180px 0px;
   color: #fff;
 }
@@ -223,6 +222,7 @@ img {
     display: flex;
     flex-direction: row;
     text-align: left;
+    width: 100%;
   }
 
   .col-left {
