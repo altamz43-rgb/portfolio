@@ -10,7 +10,8 @@ html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -127,9 +128,7 @@ nav li a:hover {
 }
 
 .col-left {
-  width: 100%;
-  max-width: 600px;
-  padding: 180px 0px;
+  padding: 120px 0px;
   color: #fff;
 }
 
@@ -137,10 +136,18 @@ nav li a:hover {
   margin-bottom: 15px;
 }
 
+.col-left h4 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 15px;
+  line-height: 30px;
+}
+
 .col-left p {
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
+  text-align: justify;
 }
 
 button {
@@ -242,6 +249,13 @@ img {
     margin-bottom: 20px;
   }
 
+  .col-left h4 {
+    text-align: left;
+    margin-bottom: 35px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
   button {
     width: 230px;
   }
@@ -259,6 +273,9 @@ img {
   .col-left {
     padding: 90px 80px;
     width: 100%;
+  }
+
+  .col-left p {
   }
 }
 
