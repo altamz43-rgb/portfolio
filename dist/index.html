@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="main.css" />
     <link rel="icon" href="Vector.png" type="image" sizes="16x16" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio.io</title>
   </head>
   <body>
@@ -31,17 +32,22 @@
       </div>
     </nav>
     <div class="container">
-      <div class="col-left">
+      <div data-aos="fade-right" data-aos-duration="3000" class="col-left">
         <h1>Hi, Im Arjay</h1>
         <p>I'am an Aspiring Web Developer</p>
-        <button><a href="#about">Read more</a></button>
+        <a href="#about"><button>Read more</button></a>
       </div>
-      <div class="col-left">
+      <div data-aos="fade-left" data-aos-duration="3000" class="col-left">
         <img src="./svg-1.svg" alt="" />
       </div>
     </div>
     <div class="container">
-      <div class="col-left" id="about">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        class="col-left"
+        id="about"
+      >
         <h1>STORY</h1>
         <p>
           I started to develop myself in this career when I was in my third year
@@ -56,12 +62,17 @@
         </p>
         <button>View CV</button>
       </div>
-      <div class="col-left">
+      <div data-aos="fade-left" data-aos-duration="3000" class="col-left">
         <img src="./svg-2.svg" alt="" />
       </div>
     </div>
     <div class="container">
-      <div class="col-left" id="skill">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        class="col-left"
+        id="skill"
+      >
         <h1>SKILLS SET</h1>
         <p>
           As of now, I'm just focusing on the front-end side, I currently
@@ -74,7 +85,7 @@
         </p>
         <button>View CV</button>
       </div>
-      <div class="col-left">
+      <div data-aos="fade-left" data-aos-duration="3000" class="col-left">
         <img src="./svg-3.svg" alt="" />
       </div>
     </div>
@@ -93,5 +104,9 @@
       <p>copyright &copy 2021. design by Arjay Altamera</p>
     </div>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
