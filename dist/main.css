@@ -156,28 +156,27 @@ nav li a:hover {
 }
 
 .img-slide {
-  animation: animate 15s ease infinite;
-  width: 300px;
-  height: 300px;
-  border: transparent;
+  animation: animate 20s ease infinite;
+  width: 250px;
+  height: 250px;
 }
 
 @keyframes animate {
   0%,
   100% {
-    background-image: url(./html-5.png);
+    background-image: url(./html-5.svg);
     background-repeat: no-repeat;
   }
   25% {
-    background-image: url(./css-3.png);
+    background-image: url(./css-3.svg);
     background-repeat: no-repeat;
   }
   50% {
-    background-image: url(./js.png);
+    background-image: url(./js.svg);
     background-repeat: no-repeat;
   }
   75% {
-    background-image: url(./figma.png);
+    background-image: url(./figma.svg);
     background-repeat: no-repeat;
   }
 }
@@ -273,6 +272,10 @@ img {
     padding: 90px 50px;
     width: 100%;
     z-index: 2;
+  }
+
+  .img-slide {
+    margin-left: 40px;
   }
 
   .col-left p {
