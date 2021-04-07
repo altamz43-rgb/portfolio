@@ -129,7 +129,7 @@ nav li a:hover {
 }
 
 .col-left {
-  padding: 120px 0px;
+  padding: 100px 0px;
   color: #fff;
 }
 
@@ -159,6 +159,7 @@ nav li a:hover {
   animation: animate 20s ease infinite;
   width: 250px;
   height: 250px;
+  margin-left: 50px;
 }
 
 @keyframes animate {
@@ -275,7 +276,7 @@ img {
   }
 
   .img-slide {
-    margin-left: 40px;
+    margin-left: 75px;
   }
 
   .col-left p {
